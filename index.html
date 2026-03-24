@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Totonou Travel ・ Tokyo Walking Tours</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <a class="nav-logo" href="#">
+        <img src="assets/Totonou_Travel.png" alt="Totonou Travel" />
+        <div class="nav-brand">
+          <span class="nav-title">Totonou Travel</span>
+          <span class="nav-tagline">Travel at Your Own Rhythm</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#sample">Sample Itinerary</a></li>
+        <li><a href="#customize">Customize</a></li>
+        <li><a href="#contact" class="nav-cta">Book a Tour</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-petals" id="petals"></div>
+      <div class="hero-kanji">東京散歩</div>
+      <p class="hero-tag">Tokyo Walking Tours</p>
+      <h1>Walk Tokyo<br />at your <em>own rhythm</em></h1>
+      <p class="hero-sub">
+        Private, customized walking tours through authentic Tokyo crafted around
+        your interests, your pace, your time.
+      </p>
+      <div class="hero-actions">
+        <a href="#tours" class="btn-primary">Explore Tours</a>
+        <a href="#sample" class="btn-ghost">See a Sample Itinerary</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">¥2,500</div>
+          <div class="stat-label">per hour · ~$15</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-num">8–15</div>
+          <div class="stat-label">daily hours</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-num">4</div>
+          <div class="stat-label">tour durations</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <div class="intro-grid reveal">
+        <div class="intro-text">
+          <p class="section-label">About Totonou Travel</p>
+          <h2 class="section-title">
+            Tokyo, the way<br /><em>locals live it</em>
+          </h2>
+          <p class="intro-body">
+            No cookie-cutter temple circuits. No fish market crowds. Totonou
+            Travel brings you into the real Tokyo, the neighbourhood kissaten
+            cafés, the quiet shotengai streets, the hanami spots locals actually
+            use.
+          </p>
+          <p class="intro-body">
+            Every tour is built around <em>you</em> , your interests, your
+            walking pace, what you actually want to experience.
+          </p>
+          <div class="intro-features">
+            <div class="feature">
+              <div class="feature-icon">
+                <i data-lucide="map"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Fully customized</h4>
+                <p>Tell us your interests, we build the route around them.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <i data-lucide="users"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Private & personal</h4>
+                <p>Just your group, no strangers, no rushing.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <i data-lucide="flower-2"></i>
+              </div>
+              <div class="feature-text">
+                <h4>Local knowledge</h4>
+                <p>
+                  Hidden spots, honest food picks, and the context that makes it
+                  meaningful.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="intro-visual">
+          <div class="intro-visual-bg"></div>
+
+          <div class="intro-visual-copy">
+            <p class="intro-visual-label">Tour Options</p>
+            <h3 class="intro-visual-title">Flexible durations for your pace</h3>
+            <p class="intro-visual-text">
+              Choose a short neighborhood stroll or a fuller half-day journey
+              through Tokyo.
+            </p>
+          </div>
+
+          <div class="hours-grid">
+            <div class="hour-pill"><strong>2h</strong>Quick Escape</div>
+            <div class="hour-pill"><strong>3h</strong>Morning Wander</div>
+            <div class="hour-pill"><strong>4h</strong>Half Day</div>
+            <div class="hour-pill"><strong>6h</strong>Full Day</div>
+          </div>
+
+          <div class="pricing-badge">
+            <div class="price">
+              ¥2,500<span style="font-size: 1.2rem"> / hr</span>
+            </div>
+            <div class="price-sub">
+              Approx. $15 USD · Tours run 8:00 - 15:00
+            </div>
+          </div>
+
+          <p class="pricing-note">
+            Flat hourly rate. No hidden fees. Just great Tokyo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tours" id="tours">
+      <div class="tours-header reveal">
+        <div>
+          <p class="section-label">Tour Packages</p>
+          <h2 class="section-title">Choose your <em>pace</em></h2>
+        </div>
+        <p
+          style="
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            max-width: 260px;
+            text-align: right;
+          "
+        >
+          Every tour is private and built for your group.
+        </p>
+      </div>
+      <div class="tours-grid reveal">
+        <div class="tour-card">
+          <div class="tour-duration">2 Hours</div>
+          <div class="tour-name">Quick Escape</div>
+          <p class="tour-desc">
+            A focused walk through one neighbourhood. Perfect for a short window
+            between other plans.
+          </p>
+          <div class="tour-price">¥10,000 <span>/ group</span></div>
+          <ul class="tour-stops">
+            <li>2–3 curated stops</li>
+            <li>One neighbourhood focus</li>
+            <li>Morning or afternoon slot</li>
+            <li>Starts from your hotel</li>
+          </ul>
+          <a href="#contact" class="tour-link" data-duration="2 Hours"
+            >Book this →</a
+          >
+        </div>
+        <div class="tour-card">
+          <div class="tour-duration">3 Hours</div>
+          <div class="tour-name">Morning Wander</div>
+          <p class="tour-desc">
+            A relaxed half-morning covering two neighbourhoods with a coffee
+            stop along the way.
+          </p>
+          <div class="tour-price">¥15,000 <span>/ group</span></div>
+          <ul class="tour-stops">
+            <li>3–4 curated stops</li>
+            <li>Two neighbourhood arc</li>
+            <li>Coffee or tea stop</li>
+            <li>Local street food tasting</li>
+          </ul>
+          <a href="#contact" class="tour-link" data-duration="3 Hours"
+            >Book this →</a
+          >
+        </div>
+        <div class="tour-card featured">
+          <div class="tour-duration">4 Hours</div>
+          <div class="tour-name">Half Day Journey</div>
+          <p class="tour-desc">
+            The most popular option, enough time to go deep, with space to
+            linger where you love.
+          </p>
+          <div class="tour-price">¥20,000 <span>/ group</span></div>
+          <ul class="tour-stops">
+            <li>5–6 curated stops</li>
+            <li>Three neighbourhood arc</li>
+            <li>Picnic or sit-down lunch</li>
+            <li>Photo stops built in</li>
+          </ul>
+          <a href="#contact" class="tour-link" data-duration="4 Hours"
+            >Book this →</a
+          >
+        </div>
+        <div class="tour-card">
+          <div class="tour-duration">6 Hours</div>
+          <div class="tour-name">Full Day Tokyo</div>
+          <p class="tour-desc">
+            A complete cross-city journey, from old shitamachi lanes to modern
+            Tokyo's energy.
+          </p>
+          <div class="tour-price">¥30,000 <span>/ group</span></div>
+          <ul class="tour-stops">
+            <li>7–9 curated stops</li>
+            <li>Morning to afternoon</li>
+            <li>Full lunch experience</li>
+            <li>Evening handoff point</li>
+          </ul>
+          <a href="#contact" class="tour-link" data-duration="6 Hours"
+            >Book this →</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="sample" id="sample">
+      <div class="sample-inner">
+        <div class="sample-header reveal">
+          <p class="section-label">Sample Itinerary</p>
+          <h2 class="section-title">
+            春の東京 <br />A <em>Spring Morning</em> in Tokyo
+          </h2>
+          <p
+            style="
+              margin-top: 0.75rem;
+              font-size: 0.9rem;
+              color: var(--text-muted);
+            "
+          >
+            4-hour tour · Yanaka → Ueno · Cherry blossom season
+          </p>
+        </div>
+        <div class="sample-grid reveal">
+          <div class="sample-timeline">
+            <div class="stop-time">9:35</div>
+            <div class="stop-dot-wrap">
+              <div class="stop-dot active"></div>
+              <div class="stop-line"></div>
+            </div>
+            <div class="stop-content">
+              <div class="stop-name">Yanaka Cemetery</div>
+              <p class="stop-desc">
+                One of Tokyo's most peaceful sakura spots, a canopy of white
+                blossoms with no tourist crowds. Also: the grave of Tokugawa
+                Yoshinobu, Japan's last Shogun.
+              </p>
+            </div>
+
+            <div class="stop-time">10:00</div>
+            <div class="stop-dot-wrap">
+              <div class="stop-dot"></div>
+              <div class="stop-line"></div>
+            </div>
+            <div class="stop-content">
+              <div class="stop-name">Yanaka Ginza</div>
+              <p class="stop-desc">
+                Old Tokyo's most authentic shotengai, 'cat town' to locals, with
+                warm menchi katsu and sembei fresh from family shops.
+              </p>
+            </div>
+
+            <div class="stop-time">10:50</div>
+            <div class="stop-dot-wrap">
+              <div class="stop-dot"></div>
+              <div class="stop-line"></div>
+            </div>
+            <div class="stop-content">
+              <div class="stop-name">Ueno Sakuragi Atari</div>
+              <p class="stop-desc">
+                A courtyard of beautifully restored Meiji-era houses, handmade
+                crafts, Kayaba Bakery coffee, a perfect gentle rest stop.
+              </p>
+            </div>
+
+            <div class="stop-time">11:10</div>
+            <div class="stop-dot-wrap">
+              <div class="stop-dot"></div>
+              <div class="stop-line"></div>
+            </div>
+            <div class="stop-content">
+              <div class="stop-name">Ameyoko Market</div>
+              <p class="stop-desc">
+                Pick up your hanami picnic here, onigiri, yakitori, fresh fruit
+                stalls, the sound of vendors calling out to the crowd.
+              </p>
+            </div>
+
+            <div class="stop-time">11:35</div>
+            <div class="stop-dot-wrap">
+              <div class="stop-dot"></div>
+              <div class="stop-line"></div>
+            </div>
+            <div class="stop-content">
+              <div class="stop-name">Ueno Park, Hanami Picnic</div>
+              <p class="stop-desc">
+                Over 1,000 sakura trees. Spread out on the blossom avenue and
+                watch Tokyo families, students, and office workers all celebrate
+                spring together.
+              </p>
+            </div>
+
+            <div class="stop-time">12:30</div>
+            <div class="stop-dot-wrap"><div class="stop-dot"></div></div>
+            <div class="stop-content" style="padding-bottom: 0">
+              <div class="stop-name">Shinobazu Pond</div>
+              <p class="stop-desc">
+                End with a peaceful pond walk, swan boats, birdlife, and
+                Bentendo Hall framed by sakura. One of Tokyo's most photogenic
+                spring views.
+              </p>
+            </div>
+          </div>
+          <div class="sample-collage">
+            <div class="collage-photo photo-1">
+              <img
+                src="assets/sample-yanaka-cemetery.jpg"
+                alt="Yanaka Cemetery"
+              />
+            </div>
+            <div class="collage-photo photo-2">
+              <img src="assets/sample-yanaka-ginza.webp" alt="Yanaka Ginza" />
+            </div>
+            <div class="collage-photo photo-3">
+              <img
+                src="assets/sample-ueno-sakuragi.webp"
+                alt="Ueno Sakuragi Atari"
+              />
+            </div>
+            <div class="collage-photo photo-4">
+              <img src="assets/sample-ameyoko.jpg" alt="Ameyoko Market" />
+            </div>
+            <div class="collage-photo photo-5">
+              <img src="assets/sample-ueno-park.jpg" alt="Ueno Park" />
+            </div>
+            <div class="collage-photo photo-6">
+              <img src="assets/sample-shinobazu.webp" alt="Shinobazu Pond" />
+            </div>
+          </div>
+        </div>
+        <div class="sample-panel">
+          <div class="sample-panel-content">
+            <div class="sample-panel-main">
+              <p class="sample-panel-label">Fully customizable</p>
+              <h3 class="sample-panel-title">
+                Adjust the route to match your interests
+              </h3>
+              <p class="sample-panel-text">
+                Prefer food to history? Skip the cemetery and add Kagurazaka’s
+                Franco-Japanese lanes. More of a photography person? The pace
+                and timing can be adjusted for the best light.
+              </p>
+
+              <div class="aside-tags">
+                <span class="tag">Sakura season</span>
+                <span class="tag">Local food</span>
+                <span class="tag">Old Tokyo</span>
+                <span class="tag">4 hours</span>
+              </div>
+
+              <a href="#contact" class="aside-cta">Request this tour</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="customize" id="customize">
+      <div class="customize-inner reveal">
+        <p class="section-label">How it works</p>
+        <h2 class="section-title">Built around <em>your interests</em></h2>
+        <p class="customize-body">
+          Tell us what draws you to Tokyo. We'll build your route, timings, and
+          stops specifically for your group.
+        </p>
+        <p class="customize-note">
+          Choose up to 3 interests to help shape your tour.
+        </p>
+        <div class="interests-grid">
+          <div class="interest-card" data-interest="Local Food & Markets">
+            <i data-lucide="utensils"></i>
+            <div class="interest-name">Local Food & Markets</div>
+          </div>
+
+          <div class="interest-card" data-interest="Hanami & Seasonal">
+            <i data-lucide="flower"></i>
+            <div class="interest-name">Hanami & Seasonal</div>
+          </div>
+
+          <div class="interest-card" data-interest="Photography Spots">
+            <i data-lucide="camera"></i>
+            <div class="interest-name">Photography Spots</div>
+          </div>
+
+          <div class="interest-card" data-interest="History & Culture">
+            <i data-lucide="landmark"></i>
+            <div class="interest-name">History & Culture</div>
+          </div>
+
+          <div class="interest-card" data-interest="Shopping & Crafts">
+            <i data-lucide="shopping-bag"></i>
+            <div class="interest-name">Shopping & Crafts</div>
+          </div>
+
+          <div class="interest-card" data-interest="Art & Architecture">
+            <i data-lucide="palette"></i>
+            <div class="interest-name">Art & Architecture</div>
+          </div>
+
+          <div class="interest-card" data-interest="Quiet Neighbourhoods">
+            <i data-lucide="home"></i>
+            <div class="interest-name">Quiet Neighbourhoods</div>
+          </div>
+
+          <div class="interest-card" data-interest="Cafés & Kissaten">
+            <i data-lucide="coffee"></i>
+            <div class="interest-name">Cafés & Kissaten</div>
+          </div>
+        </div>
+        <a href="#contact" class="btn-primary" id="plan-tour-btn"
+          >Start Planning Your Tour</a
+        >
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <div class="contact-left reveal">
+          <p class="section-label" style="color: var(--sakura)">
+            <span
+              style="
+                display: inline-block;
+                width: 24px;
+                height: 0.5px;
+                background: var(--sakura);
+                vertical-align: middle;
+                margin-right: 0.6rem;
+              "
+            ></span
+            >Get in Touch
+          </p>
+          <h2 class="section-title">
+            Let's plan your<br /><em style="color: var(--sakura)"
+              >perfect day</em
+            >
+          </h2>
+          <p>
+            Send us a message with your preferred date, duration, and interests.
+            We'll reply within 24 hours with a proposed itinerary.
+          </p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <div class="contact-item-label">Base</div>
+                <div class="contact-item-text">Tokyo, Japan</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="clock"></i>
+              </div>
+              <div>
+                <div class="contact-item-label">Tour Hours</div>
+                <div class="contact-item-text">8:00 AM - 3:00 PM daily</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="credit-card"></i>
+              </div>
+              <div>
+                <div class="contact-item-label">Rate</div>
+                <div class="contact-item-text">¥2,500 per hour (~$15 USD)</div>
+              </div>
+            </div>
+
+            <!-- EMAIL -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="mail"></i>
+              </div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-text">
+                  <a href="mailto:atsushijunior.harada@gmail.com"
+                    >atsushijunior.harada@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- WHATSAPP -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="message-circle"></i>
+              </div>
+              <div>
+                <div class="contact-item-label">WhatsApp</div>
+                <div class="contact-item-text">
+                  <a href="https://wa.me/818074310125" target="_blank">
+                    Chat on WhatsApp →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form
+          class="contact-form reveal"
+          name="tour-inquiry"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="tour-inquiry" />
+          <p hidden>
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" name="name" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="@example.com" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Tour Date</label>
+              <input type="date" name="tour-date" />
+            </div>
+            <div class="form-group">
+              <label>Number of Guests</label>
+              <input
+                type="number"
+                name="guests"
+                placeholder="2"
+                min="1"
+                max="10"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Tour Duration</label>
+            <select id="tour-duration" name="tour-duration">
+              <option value="">Select duration</option>
+              <option value="2 Hours">2 Hours</option>
+              <option value="3 Hours">3 Hours</option>
+              <option value="4 Hours">4 Hours</option>
+              <option value="6 Hours">6 Hours</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Interests & Notes</label>
+            <textarea
+              id="interests-notes"
+              name="interests-notes"
+              placeholder="Tell us what you love: food, photography, history, quiet streets, sakura spots..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">
+            Start Your Tokyo Experience →
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-logo">
+        <img src="assets/Totonou_Travel.png" alt="Totonou Travel" />
+      </div>
+      <p class="footer-tagline">Travel at Your Own Rhythm</p>
+      <p class="footer-copy">© 2026 Totonou Travel · Tokyo, Japan</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      const pc = document.getElementById("petals");
+      for (let i = 0; i < 18; i++) {
+        const p = document.createElement("div");
+        p.className = "petal";
+        p.style.cssText = `left:${Math.random() * 100}%;animation-duration:${6 + Math.random() * 10}s;animation-delay:${Math.random() * 12}s;width:${4 + Math.random() * 5}px;height:${5 + Math.random() * 6}px;opacity:${0.05 + Math.random() * 0.12}`;
+        pc.appendChild(p);
+      }
+
+      const obs = new IntersectionObserver(
+        (es) =>
+          es.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("visible");
+          }),
+        { threshold: 0.1 },
+      );
+      document.querySelectorAll(".reveal").forEach((r) => obs.observe(r));
+
+      lucide.createIcons();
+
+      const interestCards = document.querySelectorAll(".interest-card");
+      const planTourBtn = document.getElementById("plan-tour-btn");
+      const interestsNotes = document.getElementById("interests-notes");
+
+      let selectedInterests = [];
+
+      interestCards.forEach((card) => {
+        card.addEventListener("click", () => {
+          const interest = card.dataset.interest;
+          const isSelected = card.classList.contains("selected");
+
+          if (isSelected) {
+            card.classList.remove("selected");
+            selectedInterests = selectedInterests.filter(
+              (item) => item !== interest,
+            );
+            return;
+          }
+
+          if (selectedInterests.length >= 3) {
+            return;
+          }
+
+          card.classList.add("selected");
+          selectedInterests.push(interest);
+        });
+      });
+
+      planTourBtn.addEventListener("click", () => {
+        if (!interestsNotes) return;
+
+        if (selectedInterests.length > 0) {
+          const interestText = `Selected interests: ${selectedInterests.join(", ")}\n\n`;
+          const existingText = interestsNotes.value.trim();
+
+          if (!existingText.startsWith("Selected interests:")) {
+            interestsNotes.value = interestText + existingText;
+          } else {
+            interestsNotes.value =
+              interestText + existingText.split("\n\n").slice(1).join("\n\n");
+          }
+        }
+
+        setTimeout(() => {
+          interestsNotes.focus();
+        }, 300);
+      });
+
+      const durationSelect = document.getElementById("tour-duration");
+      const tourLinks = document.querySelectorAll(".tour-link");
+
+      tourLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const duration = link.dataset.duration;
+
+          if (durationSelect && duration) {
+            durationSelect.value = duration;
+          }
+
+          if (interestsNotes && duration) {
+            const existing = interestsNotes.value.trim();
+            const prefill = `Requested tour duration: ${duration}\n\n`;
+
+            if (!existing.startsWith("Requested tour duration:")) {
+              interestsNotes.value = prefill + existing;
+            } else {
+              interestsNotes.value =
+                prefill + existing.split("\n\n").slice(1).join("\n\n");
+            }
+          }
+
+          setTimeout(() => {
+            if (interestsNotes) interestsNotes.focus();
+          }, 300);
+        });
+      });
+      durationSelect.classList.add("highlight");
+      setTimeout(() => {
+        durationSelect.classList.remove("highlight");
+      }, 800);
+    </script>
+  </body>
+</html>
